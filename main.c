@@ -106,7 +106,7 @@ int main(void)
 HAL_ADC_Start(&hadc3);
 HAL_ADC_PollForConversion(&hadc3, 1000);
 adc_value = HAL_ADC_GetValue(&hadc3);
-sprintf(msg," adc = %lu\r\n",adc_value);
+sprintf(msg," ac = %lu\r\n",adc_value);
 HAL_UART_Transmit(&huart1, msg, strlen(msg), 1000);
 HAL_Delay(500);
 
