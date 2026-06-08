@@ -103,7 +103,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-HAL_ADC_Start(&hadc3);
+HAL_ADC_Start(&hadc3);//hai
 HAL_ADC_PollForConversion(&hadc3, 1000);
 adc_value = HAL_ADC_GetValue(&hadc3);
 sprintf(msg," ac = %lu\r\n",adc_value);
