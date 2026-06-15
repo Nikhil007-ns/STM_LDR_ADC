@@ -46,7 +46,7 @@ UART_HandleTypeDef huart1;
 
 /* USER CODE BEGIN PV */
 uint32_t adc_value;
-char msg[201];
+char msg[20];
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
