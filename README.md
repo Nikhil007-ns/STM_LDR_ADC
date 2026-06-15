@@ -1,2 +1,4 @@
 # STM_LDR_ADC
-learning stm
+learning stm 
+and started to commit
+
